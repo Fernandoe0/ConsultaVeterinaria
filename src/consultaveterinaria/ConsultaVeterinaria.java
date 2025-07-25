@@ -21,12 +21,17 @@ public class ConsultaVeterinaria {
         mascotas.add(new Perro());
         mascotas.add(new Gato());
         mascotas.add(new Conejo());
+        mascotas.add(new Tortuga());
         
         for (Mascota a : mascotas) {
             a.hacerSonido();
             a.descansar();
             if (a instanceof AtencionEspecial atencionEspecial) {
                 atencionEspecial.recibirAtencionEspecial();
+            }
+            if (a instanceof Vacunable vacunable){
+                vacunable.vacunar();
+            
             }
         }
     }
