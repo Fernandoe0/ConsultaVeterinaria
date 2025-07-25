@@ -8,6 +8,7 @@ package consultaveterinaria;
  *
  * @author BICHO
  */
+//interfaz de Vacunable
 public interface Vacunable {
    
     public void vacunar();

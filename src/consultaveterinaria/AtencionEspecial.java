@@ -8,6 +8,7 @@ package consultaveterinaria;
  *
  * @author BICHO
  */
+//interfaz de Atención Especial
 public interface AtencionEspecial {
     
     public void recibirAtencionEspecial();

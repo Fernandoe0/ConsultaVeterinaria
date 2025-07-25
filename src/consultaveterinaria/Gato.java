@@ -8,8 +8,9 @@ package consultaveterinaria;
  *
  * @author BICHO
  */
+//implementación de herencia de clase Mascota
 public class Gato extends Mascota {
-    
+    //Sobreescritura de método hacer sonido
     @Override
     public void hacerSonido(){
         System.out.println("El Gato Hace Miauuuu");
